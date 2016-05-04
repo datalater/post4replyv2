@@ -1460,3 +1460,180 @@ Processing by HomeController#index as HTML
   [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 7]]
   Rendered home/index.html.erb within layouts/application (7.8ms)
 Completed 200 OK in 47ms (Views: 44.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 203.253.86.117 at 2016-05-04 01:34:59 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /usr/local/rvm/gems/ruby-2.3.0/gems/railties-4.2.5/lib/rails/templates/rails/welcome/index.html.erb (4.1ms)
+Completed 200 OK in 38ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 203.253.86.117 at 2016-05-04 01:35:17 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.5ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 2]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 4]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 5]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 6]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 7]]
+  Rendered home/index.html.erb within layouts/application (176.8ms)
+Completed 200 OK in 571ms (Views: 554.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 203.253.86.117 at 2016-05-04 01:35:18 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/home/write" for 203.253.86.117 at 2016-05-04 01:35:27 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#write as HTML
+  Parameters: {"title"=>"잔디 주소", "content"=>"https://hufslion4-group2.jandi.com/app/#/channels/11997865"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["title", "잔디 주소"], ["content", "https://hufslion4-group2.jandi.com/app/#/channels/11997865"], ["created_at", "2016-05-04 01:35:27.728773"], ["updated_at", "2016-05-04 01:35:27.728773"]]
+  [1m[35m (14.2ms)[0m  commit transaction
+Redirected to https://post4reply-datalater.c9users.io/home/index
+Completed 302 Found in 27ms (ActiveRecord: 14.9ms)
+
+
+Started GET "/home/index" for 203.253.86.117 at 2016-05-04 01:35:27 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[36mPost Load (0.5ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 1]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 2]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 3]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 4]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 5]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 6]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 7]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 8]]
+  Rendered home/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 39ms (Views: 36.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 2]]
+  [1m[36mReply Load (0.3ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 4]]
+  [1m[36mReply Load (0.4ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 5]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 6]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35mReply Load (0.3ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 8]]
+  Rendered home/index.html.erb within layouts/application (91.2ms)
+Completed 200 OK in 125ms (Views: 121.9ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 223.32.118.178 at 2016-05-04 01:36:14 +0000
+Cannot render console from 223.32.118.178! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started POST "/home/reply_write" for 203.253.86.117 at 2016-05-04 01:39:51 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#reply_write as HTML
+  Parameters: {"id_of_post"=>"8", "content"=>"<회의록_160503(화)>\r\n\r\n주제: 외대멋사 홈페이지 프로젝트\r\n\r\n1. [필독] 작업시 주의 사항\r\n- git clone 주소: https://github.com/projgotham/hufs_likelion_project\r\n- 작업한 내용은 누구나 알아볼 수 있게 주석으로 남길 것\r\n- CSS 셀렉터(class, id)를 새로 지정할 때는 팀원 간 겹치지 않게 고유명칭으로 사용할 것\r\n- 열었던 태그는 잘 닫혔는지 반드시 확인할 것 e.g. <div><div></div></div>\r\n\r\n\r\n2. 작업 완료 후 git 명령어 입력\r\n- git add .\r\n- git commit -m \"* 설명문\"\r\n- git push -u origin master\r\n\r\n* 설명문: e.g. \"160504_jmc_mailgun\"\r\n\r\n\r\n3. 업데이트할 내용\r\n- 현진호: 로그인 기능 및 게시판 구현\r\n- 조민철: 캔슬 버튼 및 지원 완료 메일 전송 기능 구현\r\n- 허진: about 부분 수정\r\n- 이민구: 수정 및 마무리 작업\r\n- 천승진: 중간고사 관계로 미정\r\n- 김정택: 배경 및 javascript 오류 살펴보기"}
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (2.0ms)[0m  INSERT INTO "replies" ("content", "post_id", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["content", "<회의록_160503(화)>\r\n\r\n주제: 외대멋사 홈페이지 프로젝트\r\n\r\n1. [필독] 작업시 주의 사항\r\n- git clone 주소: https://github.com/projgotham/hufs_likelion_project\r\n- 작업한 내용은 누구나 알아볼 수 있게 주석으로 남길 것\r\n- CSS 셀렉터(class, id)를 새로 지정할 때는 팀원 간 겹치지 않게 고유명칭으로 사용할 것\r\n- 열었던 태그는 잘 닫혔는지 반드시 확인할 것 e.g. <div><div></div></div>\r\n\r\n\r\n2. 작업 완료 후 git 명령어 입력\r\n- git add .\r\n- git commit -m \"* 설명문\"\r\n- git push -u origin master\r\n\r\n* 설명문: e.g. \"160504_jmc_mailgun\"\r\n\r\n\r\n3. 업데이트할 내용\r\n- 현진호: 로그인 기능 및 게시판 구현\r\n- 조민철: 캔슬 버튼 및 지원 완료 메일 전송 기능 구현\r\n- 허진: about 부분 수정\r\n- 이민구: 수정 및 마무리 작업\r\n- 천승진: 중간고사 관계로 미정\r\n- 김정택: 배경 및 javascript 오류 살펴보기"], ["post_id", 8], ["created_at", "2016-05-04 01:39:51.131774"], ["updated_at", "2016-05-04 01:39:51.131774"]]
+  [1m[36m (10.0ms)[0m  [1mcommit transaction[0m
+Redirected to https://post4reply-datalater.c9users.io/home/index
+Completed 302 Found in 119ms (ActiveRecord: 12.2ms)
+
+
+Started GET "/home/index" for 203.253.86.117 at 2016-05-04 01:39:51 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.4ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 2]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 4]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 5]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 6]]
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 8]]
+  Rendered home/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 59ms (Views: 56.1ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/home/write" for 203.253.86.117 at 2016-05-04 01:40:15 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#write as HTML
+  Parameters: {"title"=>"회의록", "content"=>"<회의록_160503(화)>\r\n\r\n주제: 외대멋사 홈페이지 프로젝트\r\n\r\n1. [필독] 작업시 주의 사항\r\n- git clone 주소: https://github.com/projgotham/hufs_likelion_project\r\n- 작업한 내용은 누구나 알아볼 수 있게 주석으로 남길 것\r\n- CSS 셀렉터(class, id)를 새로 지정할 때는 팀원 간 겹치지 않게 고유명칭으로 사용할 것\r\n- 열었던 태그는 잘 닫혔는지 반드시 확인할 것 e.g. <div><div></div></div>\r\n\r\n\r\n2. 작업 완료 후 git 명령어 입력\r\n- git add .\r\n- git commit -m \"* 설명문\"\r\n- git push -u origin master\r\n\r\n* 설명문: e.g. \"160504_jmc_mailgun\"\r\n\r\n\r\n3. 업데이트할 내용\r\n- 현진호: 로그인 기능 및 게시판 구현\r\n- 조민철: 캔슬 버튼 및 지원 완료 메일 전송 기능 구현\r\n- 허진: about 부분 수정\r\n- 이민구: 수정 및 마무리 작업\r\n- 천승진: 중간고사 관계로 미정\r\n- 김정택: 배경 및 javascript 오류 살펴보기"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "posts" ("title", "content", "created_at", "updated_at") VALUES (?, ?, ?, ?)  [["title", "회의록"], ["content", "<회의록_160503(화)>\r\n\r\n주제: 외대멋사 홈페이지 프로젝트\r\n\r\n1. [필독] 작업시 주의 사항\r\n- git clone 주소: https://github.com/projgotham/hufs_likelion_project\r\n- 작업한 내용은 누구나 알아볼 수 있게 주석으로 남길 것\r\n- CSS 셀렉터(class, id)를 새로 지정할 때는 팀원 간 겹치지 않게 고유명칭으로 사용할 것\r\n- 열었던 태그는 잘 닫혔는지 반드시 확인할 것 e.g. <div><div></div></div>\r\n\r\n\r\n2. 작업 완료 후 git 명령어 입력\r\n- git add .\r\n- git commit -m \"* 설명문\"\r\n- git push -u origin master\r\n\r\n* 설명문: e.g. \"160504_jmc_mailgun\"\r\n\r\n\r\n3. 업데이트할 내용\r\n- 현진호: 로그인 기능 및 게시판 구현\r\n- 조민철: 캔슬 버튼 및 지원 완료 메일 전송 기능 구현\r\n- 허진: about 부분 수정\r\n- 이민구: 수정 및 마무리 작업\r\n- 천승진: 중간고사 관계로 미정\r\n- 김정택: 배경 및 javascript 오류 살펴보기"], ["created_at", "2016-05-04 01:40:15.825004"], ["updated_at", "2016-05-04 01:40:15.825004"]]
+  [1m[36m (11.4ms)[0m  [1mcommit transaction[0m
+Redirected to https://post4reply-datalater.c9users.io/home/index
+Completed 302 Found in 107ms (ActiveRecord: 11.9ms)
+
+
+Started GET "/home/index" for 203.253.86.117 at 2016-05-04 01:40:16 +0000
+Cannot render console from 203.253.86.117! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by HomeController#index as HTML
+  [1m[35mPost Load (0.3ms)[0m  SELECT "posts".* FROM "posts"
+  [1m[36mReply Load (0.2ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 1]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 2]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 3]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 4]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 5]]
+  [1m[35mReply Load (0.2ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 6]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 7]]
+  [1m[35mReply Load (0.1ms)[0m  SELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?  [["post_id", 8]]
+  [1m[36mReply Load (0.1ms)[0m  [1mSELECT "replies".* FROM "replies" WHERE "replies"."post_id" = ?[0m  [["post_id", 9]]
+  Rendered home/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 37ms (Views: 34.5ms | ActiveRecord: 1.5ms)
