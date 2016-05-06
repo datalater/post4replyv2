@@ -1,5 +1,9 @@
 <!--enctype="multipart/form-data"-->
 <div class="container">
+  <!--게시글 작성하기-->
+  <div style="text-align:right">
+    게시글 작성하기
+  </div>
     <form style="margin-top:40px" action="/home/write" method="post">
       <div class="form-group">
         <label for="exampleInputEmail1">title</label>
@@ -12,6 +16,11 @@
       <button type="submit" class="btn btn-default">Submit</button>
     </form>
     
+    <hr>
+    <!--작성된 글 목록-->
+    <div style="text-align:right">
+     게시물 살펴보기
+    </div><br>
     <% @posts.each do |p| %> 
         <div class="well">
           <span style="font-weight:bold"><%= p.title %></span><br>
