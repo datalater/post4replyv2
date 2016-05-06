@@ -16,10 +16,13 @@
         <div class="well">
           <span style="font-weight:bold"><%= p.title %></span><br>
           <%= p.content %><br><hr>
-          글자수: (공백포함) <%= p.content.length %><br>
-                  <% @deletespace = p.content.delete(" ").size %>
-          글자수: (공백제외) <%= @deletespace %><br>
-          단어수: <%= p.content.split.size %>
+          <div style="text-align:right">
+            <p style="color:grey">
+              글자수: (공백포함) <%= p.content.length %> | 
+              (공백제외) <%= p.content.length - p.content.count(' ') %><br>
+              단어수: <%= p.content.split.size %>
+            </p>
+          </div>
           
             <% p.replies.each do |r| %>
                 <p><%= r.content %></p>
