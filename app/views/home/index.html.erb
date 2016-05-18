@@ -40,7 +40,9 @@
             
               <div id="reply_<%= p.id %>">
               <% p.replies.each do |r| %>
-                  <p>ㄴ <%= r.content %></p>
+                  <p>ㄴ <%= r.content %>  
+                    <span style="font-size:80%; color:grey">| <%= r.created_at.in_time_zone("Asia/Seoul").strftime("%Y.%m.%d. %H:%M") %></span>
+                  </p>
                   
               <% end %>
               </div>
