@@ -25,11 +25,13 @@
     
       <% @posts.each do |p| %> 
           <div class="well">
+            <p style="color:grey">
+              <%= p.created_at.in_time_zone("Asia/Seoul").strftime("%Y.%m.%d. %H:%M") %><br>
+            </p>
             <span style="font-weight:bold"><%= p.title %></span><br>
             <%= p.content %><br><hr>
             <div style="text-align:right">
               <p style="color:grey">
-                <%= p.created_at.in_time_zone("Asia/Seoul").strftime("%Y.%m.%d. %H:%M") %><br>
                 글자수: (공백포함) <%= p.content.length %> | 
                 (공백제외) <%= p.content.length - p.content.count(' ') %><br>
                 단어수: <%= p.content.split.size %>
